@@ -49,7 +49,7 @@ int main()
     }
   }
 
-  std::cout << dist[n - 1][m - 1] << '\n';
+  std::cout << cookies;
 
   return 0;
 }

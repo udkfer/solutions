@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
@@ -12,7 +13,7 @@ int main()
     sum += p;
   }
 
-  int surplus = ((n + 1) * x) - sum;
+  int surplus= ((n + 1) * x)  - sum;
 
   std::cout << surplus << '\n';
   return 0;

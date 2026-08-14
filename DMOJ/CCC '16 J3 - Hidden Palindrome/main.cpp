@@ -21,6 +21,8 @@ int main()
   std::string word{};
   std::cin >> word;
 
+  isPalindrome(word);
+
   int maxLen = 1;
 
   for (int i{}; i < word.length(); i++) {
